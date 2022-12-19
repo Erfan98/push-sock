@@ -24,9 +24,20 @@ return [
     'apps' => [
         [
             'id' => env('PUSHER_APP_ID'),
-            'name' => env('APP_NAME'),
+            'name' => "Default App",
             'key' => env('PUSHER_APP_KEY'),
             'secret' => env('PUSHER_APP_SECRET'),
+            'path' => env('PUSHER_APP_PATH'),
+            'capacity' => null,
+            'enable_client_messages' => false,
+            'enable_statistics' => true,
+        ],
+
+        [
+            'id' => "54321",
+            'name' => "Second APP",
+            'key' => "54321",
+            'secret' => "54321",
             'path' => env('PUSHER_APP_PATH'),
             'capacity' => null,
             'enable_client_messages' => false,
