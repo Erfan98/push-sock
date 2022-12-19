@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="container">
   <header>
     <!-- place navbar here -->
   </header>
@@ -29,7 +29,10 @@
             PUSHER_SCHEME=https
         </code>
         <br>
-        <a href="/laravel-websockets">Dashboard Link</a>
+        <a href="/laravel-websockets">Dashboard Link</a> <br>
+        <a href="/register">Register</a> <br>
+        <a href="/login">Login</a> <br>
+        <a href="/logout">Logout</a> <br>
   </main>
   <footer>
     <!-- place footer here -->
