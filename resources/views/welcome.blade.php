@@ -20,14 +20,14 @@
   <main>
         <h1>Pusher Server for Magic Office</h1>
         <h1>The configuration you will need to setup</h1>
-        <code>
+        {{-- <code>
             PUSHER_APP_ID=12345 <br>
             PUSHER_APP_KEY=12345 <br>
             PUSHER_APP_SECRET=12345 <br>
             PUSHER_HOST=magicoffice.me.uk <br>
             PUSHER_PORT=6001 <br>
             PUSHER_SCHEME=https
-        </code>
+        </code> --}}
         <br>
         <a href="/laravel-websockets">Dashboard Link</a> <br>
         <a href="/register">Register</a> <br>
